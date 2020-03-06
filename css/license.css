@@ -23,6 +23,10 @@ ul {
   color: #0e82f8;
   border-bottom: 2px solid #0e82f8;
 }
+.nav1 {
+  width: 80%;
+  margin: auto;
+}
 .nav2 {
   display: none;
 }
@@ -54,7 +58,12 @@ ul {
 }
 .butt {
   background-color: #0e82f8;
+  margin-top: 0.5rem;
+  text-align: center;
   border-radius: 5px;
+  padding: 1rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
 }
 /* Title */
 .heading {
@@ -92,8 +101,12 @@ ul {
 .table .th2-offset {
   margin-right: 4rem;
 }
+.flex-butt {
+  display: flex;
+  flex-wrap: nowrap;
+}
 .butt1 {
-  text-align: center;
+  /* text-align: center; */
   padding: 1rem;
   padding-right: 2rem;
   padding-left: 2rem;
@@ -141,7 +154,10 @@ tr:last-child {
 }
 .flx {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
 }
 .flx2 {
   display: flex;
@@ -173,6 +189,7 @@ tr:last-child {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 80%;
 }
 .follow {
   width: 15rem;
@@ -186,38 +203,54 @@ tr:last-child {
   justify-content: space-evenly;
   align-items: center;
 }
-.divider {
-  margin-top: 6rem;
+.sc {
+  border: 1px solid grey;
+  width: 80%;
+  margin: auto;
 }
-
 .footer {
   display: flex;
   justify-content: center;
-  padding: 4rem;
+  padding: 5rem;
+  background-color: #111517;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+}
+.foot {
   background-color: #111517;
 }
 .footer-brand {
-  width: 7rem;
+  width: rem;
   display: block;
 }
 .footer ul a {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
-  font-size: x-small;
   color: white;
 }
 .footer li a {
   color: grey;
   line-height: 1rem;
 }
+.footer ul {
+  width: 20%;
+  padding: 2rem;
+}
 
-@media only screen and (min-width: 670px) {
+@media only screen and (max-width: 760px) {
   .footer {
     display: flex;
     justify-content: space-around;
     background-color: #111517;
-    padding: 4rem;
-    height: 26rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+  }
+  .footer ul {
+    width: 50%;
+    padding: 2rem;
   }
   .footer ul a {
     font-size: 20px;
@@ -227,6 +260,10 @@ tr:last-child {
     color: grey;
     line-height: 3rem;
   }
+  .prop {
+    display: block;
+    margin: auto;
+  }
 }
 @media only screen and (max-width: 760px) {
   .nav1 {
@@ -234,5 +271,20 @@ tr:last-child {
   }
   .nav2 {
     display: block;
+  }
+  .box {
+    width: 100% !important;
+    margin-top: 1rem;
+  }
+  .butt1 {
+    /* text-align: center; */
+    padding: 1rem;
+    /* padding-right: 2rem;
+    padding-left: 2rem; */
+  }
+  .butt2 {
+    padding: 1rem;
+    /* padding-right: 2rem;
+    padding-left: 2rem; */
   }
 }

@@ -17,6 +17,10 @@ body {
   background-color: #2a2a2a;
   height: 50rem;
 }
+.nav1 {
+  width: 80%;
+  margin: auto;
+}
 .nav1 a {
   color: white;
 }
@@ -66,7 +70,12 @@ ul {
 }
 .butt {
   background-color: #0e82f8;
+  margin-top: 0.5rem;
+  text-align: center;
   border-radius: 5px;
+  padding: 1rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
 }
 .butt1 {
   padding: 1rem;
@@ -166,7 +175,6 @@ ul {
 .demo a {
   margin-top: 10px;
   border-left: 2px solid white;
-  height: 50px;
   text-align: start;
   margin-right: 5px;
   width: 50px;
@@ -186,10 +194,16 @@ ul {
 input::after {
   color: white;
 }
+.sc {
+  border: 1px solid grey;
+  width: 80%;
+  margin: auto;
+}
 .socials {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 80%;
 }
 .follow {
   width: 15rem;
@@ -214,6 +228,11 @@ input::after {
   padding: 5rem;
   background-color: #111517;
   flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+}
+.foot {
+  background-color: #111517;
 }
 .footer-brand {
   width: rem;
@@ -233,16 +252,19 @@ input::after {
   padding: 2rem;
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 760px) {
   .footer {
     display: flex;
     justify-content: space-around;
     background-color: #111517;
-    padding: 4rem;
+    padding: 2rem;
     flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
   }
   .footer ul {
     width: 50%;
+    padding: 2rem;
   }
   .footer ul a {
     font-size: 20px;
